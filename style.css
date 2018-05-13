@@ -1,0 +1,458 @@
+*{padding: 0; margin: 0;}
+html{padding:0; margin:0;}
+
+body {
+	background: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, Georgia, San-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.body-background {
+	margin: 0;
+	padding: 0;
+	}
+
+.head {
+	background: url(lab.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 500px;
+	}
+.head:hover {
+	background: url(ant.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 65%;
+	height: 500px;
+	}
+
+ul li {
+	display: inline-block;
+	float: right;
+	}
+
+a{
+	color: white;
+	font-family: airal;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: sold;
+	margin: 20px 20px 10px 0;
+}
+
+a:hover {
+	color: lightgreen;
+}
+.head h1 {
+	color: white;
+	font-family: airal;
+	margin: 40px 35px 0 35px;
+	word-spacing: 15px;
+}
+
+.head h2 {
+	color: white;
+	font-family: airal;
+	font-size: 23px;
+	margin: 50px 35px 0 35px;
+	word-spacing: 5px;	
+}
+/*-------Head for Menu section ends here ----------*/
+
+/*-------Home page Grid section begins here--------*/
+#grid-wrapper {
+	display: grid;
+	grid-column: (6, 1fr);
+	grid-gap: 10px; 
+	height: 1150px;
+	background: url(background.jpg);
+	background-position-y: 70%;
+	margin: 100px 50px 50px 25px;
+	}
+
+.grid1 {
+	grid-column: 1;
+	grid-row: 1;
+	background:  rgba(34, 12, 64, 0.6);
+	background-repeat: no-repeat;
+	color: white;
+	}
+	
+.grid1 h1 {
+	text-align: center;
+	margin: 40px 0 0 0;
+	font-size: 22px;
+	}
+	
+.grid1 h2 {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 18px;
+}
+
+.grid1:hover { 
+	background: url(learn.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 35%;
+	background-position-x: 30%;
+	}
+
+.grid2 {
+	grid-column: 2;
+	grid-row: 1;
+	background:  rgba(50, 170, 0, 0.6);
+	background-repeat: no-repeat;
+	color: white;
+	}
+	
+.grid2 h1 {
+	text-align: center;
+	margin: 40px 0 0 0;
+	font-size: 22px;
+	}
+	
+.grid2 h2 {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 18px;
+}
+
+.grid2:hover { 
+	background: url(ethnobiology2.jpg);
+	background-position-y: 25%;
+	background-position-x: 10%;
+	}
+
+.grid3 {
+	grid-column: 1;
+	grid-row: 2;
+	background:  rgba(0, 0, 0, .6);
+	background-repeat: no-repeat;
+	color: white;
+	}
+.grid3 h1 {
+	text-align: center;
+	margin: 40px 0 0 0;
+	font-size: 22px;
+	}
+.grid3 h2 {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 18px;
+}
+	
+.grid3:hover { 
+	background: url(library1.jpg);
+	background-position-y: 25%;
+	background-position-x: 30%;
+	}
+	
+.grid4 {
+	grid-column: 2;
+	grid-row: 2;
+	background:  rgba(244, 51, 51, .4);
+	background-repeat: no-repeat;
+	color: white;
+	}
+	
+.grid4 h1 {
+	text-align: center;
+	margin: 40px 0 0 0;
+	font-size: 22px;
+	}
+	
+.grid4 h2 {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 18px;
+}
+	
+.grid4:hover { 
+	background: url(body-anatomy1.jpg);
+	background-position-y: 15%;
+	background-position-x: 45%;
+	}
+/*------Home page  Grid section ends here ---------*/
+/*-----This section is the Home page Anatomy and Opening hours section ----*/
+.anatomy-wrapper {
+	height: 720px;
+}
+.anatomy-wrapper2 {
+	float: left;
+	margin: 0 0 0 15px;
+	}
+.anatomy-wrapper2 h1{
+	margin-left: 45px;
+}
+
+.opening-hours {
+	margin-top: -250p;
+	text-transform: bold;
+	float: right;
+}
+.opening-hours table {
+	background-color: #FBF6C5;
+	margin-right: 10px;
+}
+/*-------End of Home page Anatomy and Opening hours ------*/
+	
+@media all screen (max-width: 300px;){
+.grid1 {
+	grid-column: 1;
+	grid-row: 1/3;}
+.grid2 {
+	grid-column: 2;
+grid-row: 1/3;}
+.grid3 {
+	grid-column: 1;
+grid-row: 3/5;}
+.grid4 {
+	grid-column: 2;
+	grid-row: 3/5;
+	}
+
+}
+
+/*...... This is the animal section  ......*/
+.animal {
+	background-color: transparent;
+	height: 1000px; 
+	margin: 100px 0 100px 0;
+}
+.animal h1 {
+	text-align: center; 
+	font-size: 40px;
+	}
+
+.animal2 {
+	background: rgb(217, 51, 170, .5);
+	height: px; 
+	width: 315px; 
+	margin: 0 0px 100px px;
+	color: white;
+	float: left;
+	}
+.animal2 p:first-letter {
+	font-size: 50px;
+}
+
+.animal3 img{
+	margin: 20px 10px 10px 0;
+	float: right;
+}
+
+.animalA {
+	background-color: transparent;
+	height: 1250px; 
+	margin: 100px 0 0 0;
+}
+
+.animal5 img{
+	margin: 15px 0 0 10px;
+	float: right;
+	
+}
+.animal4 {
+	background: rgb(217, 51, 170, .5);
+	height: px; 
+	width: 315px; 
+	margin: 30px 0px 0px px;
+	color: white;
+	float: left;
+}
+/* ....End of Animal section .....*/
+
+/*......This is the Visitor's form codes .....*/
+.contact-us{
+	background: rgba(0, 0, 0, .7);
+	margin: 100px 30px 0 20px;
+	height: 700px;
+	color: white;
+	overflow: hidden;
+}
+.contact-us h1{
+	text-align: center;
+	font-size: 50px;
+}
+.contact-us h2 {
+	font-size: 18px;
+	margin-top: 25px;
+}
+#visitor {
+	margin: 25px 0 0 0;
+	height: 1000px;
+}
+
+legend {
+	color: lightgreen;
+	font-size: 30px;
+	text-align: center;
+	margin: 20px 15px 20px 15px
+}
+
+label{
+	color: green;
+	font-size: 17px;
+	margin: 0px 5px -10px 25px
+}
+
+input{
+	padding: 8px 0 8px 0;
+	margin: 15px 0 5px 20px;
+}
+fieldset {
+	margin: 13px;
+}
+
+.input10 {
+	background: green;
+	width: 100px;
+	border: none;
+	text-transform: bold;
+	
+}
+/*.....This is code Library.....*/
+.library {
+	background: rgba(180, 180, 171, .6);
+	color: white; font-size: 30px;
+	text-align: center;
+	margin: 100px 0 100px 0;
+}
+	
+.library .library-image {
+	background: url(library1.jpg);
+	background-repeat: no-repeat;
+	height: 800px; 
+}
+.library-image > h2 {
+	font-size: 22px;
+	padding-top: 200px;
+}
+.library-image2 {
+	background: url(learn.jpg);
+	height: 700px; opacity: 0.4;
+}
+.library-image3 {
+	background: url(library2.jpg);
+	background-repeat: no-repeat;
+	height: 800px; 
+	background-position-y: 50%;
+	background-position-x: 47%;
+}
+.library-image3 img {
+	border-radius: 50%;
+	float: right;
+}
+
+/*...This is the end of code Library     */
+
+/*....This section is the news code .....*/
+#news {
+	background: transparent;
+	margin: 0 0 100px 0;
+	height: 1050p;
+}
+#news h1{
+	text-align: center; font-size: 50px;
+	}
+#news p {
+	text-transform: bold;
+	font-size: 20px;
+	margin: 10px 0 0 30px;
+}
+.news-flip { 
+	background-color: #FBF6C5; 	
+	height: 1030px;
+	margin-top: 50px;
+	}
+	
+.news-flip .chlorine{
+	width: 280px; 
+	margin: 20px 0 20px 15px;
+	float: left;
+	}
+
+.chlorine p {
+	background: rgba(180, 180, 171, .6);
+	color: white; font-size: 30px; 
+	text-align: center;
+}
+
+.chlorine p:first-letter {
+	font-size: 50px;
+}
+
+.news-flip .mathematician {
+	width: 280px; 
+	margin: 10px 15px 0 0;
+	float: left;
+	}
+.mathematician p {
+	background: rgba(180, 180, 171, .6);
+	color: white; font-size: 30px; text-align: center;
+}
+
+.mathematician p:first-letter {
+	font-size: 50px;
+}
+/*.....End of News section code ....*/
+
+/*.....This is the career guide code section......*/
+.career-guide {
+	background: url(exhibition.jpg);
+	background-repeat: no-repeat;
+	margin: 100px 0 100px 0;
+}
+
+.career-guide h1{
+	font-size: 50px;
+	text-align: center;
+	color: yellow;
+}
+.career-guide p{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+}
+.career-guide .reading {
+	background: rgb(217, 51, 170, .5);
+	height: 800px; width: 320px;
+}
+
+.reading p {
+	font-size: 20px;
+	color: white;
+	word-spacing: 5px;
+}
+.reading p:first-letter {
+	font-size: 50px;
+}
+/* .... End of Career guide ......*/
+
+/*....This is the footer codes section ......*/
+.footer {
+	background: rgba(0, 0, 0, .7);
+	height: 400px;
+	
+	}
+
+.footer-contact {
+	height: 50px;
+	width: 150px;
+	border: 1px;
+	color: ;
+	background: rgba(255, 255, 255, .4);
+	text-align: center;
+}
+	
+.footer nav {
+	text-align: center;
+}
+.footer nav li {
+	display: block;
+	margin: 15px;
+	color: white;
+}
+
